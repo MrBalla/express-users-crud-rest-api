@@ -51,7 +51,6 @@ This project is a RESTful API built with Express.js that allows for Create, Read
      - **URL:** `POST /users`
      - **Body Parameters:**
        - `name` (string): The name of the user.
-       - `email` (string): The email address of the user.
 
    - **Retrieve a user by ID**
 
@@ -66,7 +65,6 @@ This project is a RESTful API built with Express.js that allows for Create, Read
        - `:id` (integer): The unique identifier of the user.
      - **Body Parameters:**
        - `name` (string): The updated name of the user.
-       - `email` (string): The updated email address of the user.
 
    - **Delete a user**
 
